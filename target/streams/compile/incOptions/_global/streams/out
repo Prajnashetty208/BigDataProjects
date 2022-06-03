@@ -1,0 +1,11 @@
+[debug] Created transactional ClassFileManager with tempDir = F:\Projects\Spring Boot\Projects\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] 	Assignment3$.class
+[debug] 	Assignment3.class
+[debug] We backup class files:
+[debug] 	Assignment3$.class
+[debug] 	Assignment3.class
+[debug] Registering generated classes:
+[debug] 	Assignment3$.class
+[debug] 	Assignment3.class
+[debug] Removing the temporary directory used for backing up class files: F:\Projects\Spring Boot\Projects\target\scala-2.13\classes.bak
