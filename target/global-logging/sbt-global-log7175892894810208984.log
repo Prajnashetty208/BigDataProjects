@@ -1,0 +1,3 @@
+[debug] > Exec(all {file:/F:/Projects/Spring%20Boot/Projects/}projects/products {file:/F:/Projects/Spring%20Boot/Projects/}projects/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

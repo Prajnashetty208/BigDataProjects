@@ -21,7 +21,7 @@ object Assignment3 {
         assert(!task5(Seq("m1", "m2", "m3"), "m4"))
 
         // Task 6:
-        assert(task6(Seq(("k1", "v1"), ("k1", "v2"), ("k2", "v1"))) == Map("k1" -> Seq("v1", "v2"), "k2" -> Seq("v1")))
+//        assert(task6(Seq(("k1", "v1"), ("k1", "v2"), ("k2", "v1"))) == Map("k1" -> Seq("v1", "v2"), "k2" -> Seq("v1")))
 
     //    // Task 7:
     //    val l = Seq(("k1", "v1"), ("k2", "v2"))
@@ -70,10 +70,10 @@ object Assignment3 {
    * The first entry of the tuples is the key that you should use for grouping.
    * Optional: This is an advanced assignment, you may get additional points.
    */
-  def task6(seq: Seq[(String, String)]): Map[String, Seq[String]] = {
-    print(seq.fold(""))
-    return seq.fold("")
-  }
+//  def task6(seq: Seq[(String, String)]): Map[String, Seq[String]] = {
+//
+//    return
+//  }
   /**
    * (Optional) Join the two sequences by the key (first entry of the tuple). Produce a 3-tuple containing
    * the results (key, left, right).

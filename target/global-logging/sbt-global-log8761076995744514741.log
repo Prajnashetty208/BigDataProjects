@@ -1,0 +1,9 @@
+[debug] > Exec(all {file:/F:/Projects/Spring%20Boot/Projects/}projects/products {file:/F:/Projects/Spring%20Boot/Projects/}projects/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to F:\Projects\Spring Boot\Projects\target\scala-2.13\classes ...
+[info] done compiling
+[success] Total time: 4 s, completed 10 Jun, 2022 12:50:33 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

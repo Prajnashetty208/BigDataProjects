@@ -1,0 +1,9 @@
+[debug] > Exec(testOnly, None, None)
+[debug] Evaluating tasks: Test / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 6 Scala sources to F:\Projects\Spring Boot\Projects\target\scala-2.13\classes ...
+[info] done compiling
+[info] Passed: Total 0, Failed 0, Errors 0, Passed 0
+[info] No tests to run for Test / testOnly
+[success] Total time: 10 s, completed 10 Jun, 2022 12:47:19 PM
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,15 @@
+[debug] > Exec(all {file:/F:/Projects/Spring%20Boot/Projects/}projects/products {file:/F:/Projects/Spring%20Boot/Projects/}projects/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to F:\Projects\Spring Boot\Projects\target\scala-2.12\classes ...
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment8\MyStream.scala:31:54: missing argument list for method apply in class GenMapFactory
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `apply _` or `apply(_)` instead of `apply`.
+[error]   var map: mutable.Map[String, Integer] = mutable.Map[String, Integer]
+[error]                                                      ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 6 s, completed 8 Jul, 2022 8:39:07 AM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

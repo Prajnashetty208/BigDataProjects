@@ -1,0 +1,15 @@
+[debug] > Exec(all {file:/F:/Projects/Spring%20Boot/Projects/}projects/products {file:/F:/Projects/Spring%20Boot/Projects/}projects/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 6 Scala sources to F:\Projects\Spring Boot\Projects\target\scala-2.12\classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.0. Compiling...
+[info] Attempting to fetch org.scala-sbt:compiler-bridge_2.12:1.6.0.
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[error] (Compile / compileIncremental) Error compiling the sbt component 'compiler-bridge_2.12'
+[error] Total time: 12 s, completed 10 Jun, 2022 1:41:47 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
+[warn] In the last 77060 seconds, 22.706 (0.0%) were spent in GC. [Heap: 0.32GB free of 0.46GB, max 1.33GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.
+[warn] In the last 63425 seconds, 5.53 (0.0%) were spent in GC. [Heap: 0.28GB free of 0.42GB, max 1.33GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.

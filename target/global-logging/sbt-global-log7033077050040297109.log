@@ -1,0 +1,15 @@
+[debug] > Exec(all {file:/F:/Projects/Spring%20Boot/Projects/}projects/products {file:/F:/Projects/Spring%20Boot/Projects/}projects/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 6 Scala sources to F:\Projects\Spring Boot\Projects\target\scala-2.13\classes ...
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:48:43: type mismatch;
+[error]  found   : Unit
+[error]  required: org.apache.spark.rdd.RDD[String]
+[error]   def task1(seq: RDD[Int]): RDD[String] = {
+[error]                                           ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 10 Jun, 2022 12:41:18 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

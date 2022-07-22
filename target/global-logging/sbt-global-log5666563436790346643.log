@@ -1,0 +1,17 @@
+[debug] > Exec(all {file:/F:/Projects/Spring%20Boot/Projects/}projects/products {file:/F:/Projects/Spring%20Boot/Projects/}projects/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to F:\Projects\Spring Boot\Projects\target\scala-2.12\classes ...
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment8\MyStream.scala:31:66: missing argument list for method apply in class GenMapFactory
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `apply _` or `apply(_)` instead of `apply`.
+[error]   var hashMap: mutable.HashMap[String, Integer] = mutable.HashMap[String, Integer]
+[error]                                                                  ^
+[error] one error found
+[debug] Forcing garbage collection...
+[warn] In the last 42 seconds, 6.937 (16.6%) were spent in GC. [Heap: 0.35GB free of 0.41GB, max 1.33GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 34 s, completed 8 Jul, 2022 8:33:27 AM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

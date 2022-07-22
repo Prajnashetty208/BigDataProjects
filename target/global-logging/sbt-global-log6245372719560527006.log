@@ -7,3 +7,4 @@
 [debug] > Exec(idea-shell, None, None)
 [debug] > Exec(, None, None)
 [debug] > Exec(idea-shell, None, None)
+[warn] In the last 46281 seconds, 133.918 (0.3%) were spent in GC. [Heap: 0.48GB free of 0.56GB, max 1.33GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.

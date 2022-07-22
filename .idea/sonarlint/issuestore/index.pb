@@ -1,0 +1,25 @@
+
+`
+0src/main/scala/com/scala/assignment5/Task1.scala,5\d\5df157cd86e57151391c064efc7b4125130ff9b2
+9
+	build.sbt,7\4\74b95601c3a6d9d565cd312fac64094ec0f9d847
+l
+<src/main/scala/com/scala/assignment1/MapReduceSolution.scala,5\3\53137e5027aaa183e787b0d9baf322c3914a7478
+`
+0src/main/scala/com/scala/assignment4/Task1.scala,6\2\620e292a27af5c5f6beeec9e3587c8b4c38a576d
+`
+0src/main/scala/com/scala/assignment4/Task2.scala,f\4\f4d9623e7ed1434b022421eba4e4649613f5df57
+`
+0src/main/scala/com/scala/assignment5/Task2.scala,8\9\896218ec52305f741280befa107fba66a6b461be
+w
+Gsrc/main/scala/com/scala/assignment6/MyDistributedKVStoreSolution.scala,6\8\684a5902410787209bdab5db19dbb4114c7de350
+>
+data/frank.txt,3\f\3f94bec2d5f86fd5ff70cd464c526c1fde0a50a8
+j
+:src/main/scala/com/scala/assignment1/ClassicSolution.scala,5\4\54562be266598dece82e3df084ec8bc28f7b29ac
+f
+6src/main/scala/com/scala/assignment2/Assignment2.scala,4\e\4e838b1785bf449220201b4163b4f664b2c150ec
+p
+@src/main/scala/com/scala/assignment7/MyDistributedKVStore2.scala,f\0\f0df33f9a7a32072ab50aa7f075495fb1e46bd33
+c
+3src/main/scala/com/scala/assignment8/MyStream.scala,5\2\529d2719a56be2e28b662d69b3520fb8c08ebc94

@@ -1,32 +1,38 @@
 [debug] [zinc] IncrementalCompile -----------
 [debug] IncrementalCompile.incrementalCompile
-[debug] previous = Stamps for: 2 products, 1 sources, 1 libraries
-[debug] current source = Set(${BASE}/src/main/scala/com/scala/assignment3/Assignment3.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/com/scala/assignment3/Assignment3.scala), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] previous = Stamps for: 12 products, 11 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/com/scala/assignment1/ClassicSolution.scala, ${BASE}/src/main/scala/com/scala/assignment2/Assignment2.scala, ${BASE}/src/main/scala/com/scala/assignment4/Task1.scala, ${BASE}/src/main/scala/com/scala/assignment3/Assignment3.scala, ${BASE}/src/main/scala/com/scala/assignment5/Task1.scala, ${BASE}/src/main/scala/com/scala/assignment6/MyDistributedKVStoreSolution.scala, ${BASE}/src/main/scala/com/scala/assignment8/MyStream.scala, ${BASE}/src/main/scala/com/scala/assignment7/MyDistributedKVStore2.scala, ${BASE}/src/main/scala/com/scala/assignment1/MapReduceSolution.scala, ${BASE}/src/main/scala/com/scala/assignment5/Task2.scala, ${BASE}/src/main/scala/com/scala/assignment4/Task2.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/com/scala/assignment8/MyStream.scala), unmodified = ...),Set(),Set(),API Changes: Set())
 [debug] 
 [debug] Initial source changes:
 [debug] 	removed: Set()
 [debug] 	added: Set()
-[debug] 	modified: Set(${BASE}/src/main/scala/com/scala/assignment3/Assignment3.scala)
+[debug] 	modified: Set(${BASE}/src/main/scala/com/scala/assignment8/MyStream.scala)
 [debug] Invalidated products: Set()
 [debug] External API changes: API Changes: Set()
 [debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated classes: Set(com.scala.assignment3.Assignment3)
+[debug] Initial directly invalidated classes: Set(com.scala.assignment8.MyStream)
 [debug] Sources indirectly invalidated by:
 [debug] 	product: Set()
 [debug] 	binary dep: Set()
 [debug] 	external source: Set()
-[debug] all 1 sources are invalidated
-[debug] Initial set of included nodes: com.scala.assignment3.Assignment3
-[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] All initially invalidated classes: Set(com.scala.assignment8.MyStream)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/com/scala/assignment8/MyStream.scala)
+[debug] Initial set of included nodes: com.scala.assignment8.MyStream
 [debug] compilation cycle 1
-[info] compiling 1 Scala source to F:\Projects\Spring Boot\Projects\target\scala-2.13\classes ...
-[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.6.0:compile for Scala 2.13.8
-[debug] [zinc] Running cached compiler 777fb32b for Scala compiler version 2.13.8
+[info] compiling 1 Scala source to F:\Projects\Spring Boot\Projects\target\scala-2.12\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.6.0:compile for Scala 2.12.10
+[debug] [zinc] Running cached compiler 2711812c for Scala compiler version 2.12.10
 [debug] [zinc] The Scala compiler is invoked with:
 [debug] 	-bootclasspath
-[debug] 	C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes;C:\Users\Prajna Shetty\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar
+[debug] 	C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes;C:\Users\Prajna Shetty\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.10\scala-library-2.12.10.jar
 [debug] 	-classpath
-[debug] 	F:\Projects\Spring Boot\Projects\target\scala-2.13\classes
-[debug] Scala compilation took 0.3808786 s
+[debug] 	F:\Projects\Spring Boot\Projects\target\scala-2.12\classes
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] No classes were invalidated.
+[debug] Scala compilation took 0.5415245 s
 [info] done compiling

@@ -1,0 +1,97 @@
+[debug] > Exec(all {file:/F:/Projects/Spring%20Boot/Projects/}projects/products {file:/F:/Projects/Spring%20Boot/Projects/}projects/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to F:\Projects\Spring Boot\Projects\target\scala-2.12\classes ...
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task1.scala:3:12: object apache is not a member of package org
+[error] import org.apache.spark.rdd.RDD
+[error]            ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task1.scala:4:12: object apache is not a member of package org
+[error] import org.apache.spark.sql.SparkSession
+[error]            ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task1.scala:12:17: not found: value SparkSession
+[error]     val spark = SparkSession
+[error]                 ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task1.scala:25:16: not found: type RDD
+[error]     val input: RDD[String] = sc.textFile("data/frank.txt")
+[error]                ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task1.scala:29:16: not found: type RDD
+[error]     val words: RDD[String] = input
+[error]                ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task1.scala:32:28: not found: type RDD
+[error]     val wordsWithoutEmpty: RDD[String] = words.filter(x => x != "")
+[error]                            ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task1.scala:34:25: not found: type RDD
+[error]     val wordCountPairs: RDD[(String, Int)] = wordsWithoutEmpty.map(word => (word, 1))
+[error]                         ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task1.scala:36:25: not found: type RDD
+[error]     val wordTotalCount: RDD[(String, Int)] = wordCountPairs.reduceByKey((l, r) => l + r)
+[error]                         ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:3:12: object apache is not a member of package org
+[error] import org.apache.spark.rdd.RDD
+[error]            ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:4:12: object apache is not a member of package org
+[error] import org.apache.spark.sql.SparkSession
+[error]            ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:13:17: not found: value SparkSession
+[error]     val spark = SparkSession
+[error]                 ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:59:29: not found: type RDD
+[error]   def task1(seq: RDD[Int]): RDD[String] = seq.map {
+[error]                             ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:59:18: not found: type RDD
+[error]   def task1(seq: RDD[Int]): RDD[String] = seq.map {
+[error]                  ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:67:32: not found: type RDD
+[error]   def task2(seq: RDD[String]): RDD[String] =
+[error]                                ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:67:18: not found: type RDD
+[error]   def task2(seq: RDD[String]): RDD[String] =
+[error]                  ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:73:18: not found: type RDD
+[error]   def task3(seq: RDD[Int]): Int =
+[error]                  ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:90:18: not found: type RDD
+[error]   def task5(seq: RDD[String], x: String): Boolean =
+[error]                  ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:96:42: not found: type RDD
+[error]   def task6(seq: RDD[(String, String)]): RDD[(String, Seq[String])] =
+[error]                                          ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:96:18: not found: type RDD
+[error]   def task6(seq: RDD[(String, String)]): RDD[(String, Seq[String])] =
+[error]                  ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:104:66: not found: type RDD
+[error]   def task7(l: RDD[(String, String)], r: RDD[(String, String)]): RDD[(String, String, String)] = {
+[error]                                                                  ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:104:16: not found: type RDD
+[error]   def task7(l: RDD[(String, String)], r: RDD[(String, String)]): RDD[(String, String, String)] = {
+[error]                ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:104:42: not found: type RDD
+[error]   def task7(l: RDD[(String, String)], r: RDD[(String, String)]): RDD[(String, String, String)] = {
+[error]                                          ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment4\Task2.scala:79:18: not found: type RDD
+[error]   def task4(seq: RDD[String]): String =  {
+[error]                  ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment5\Task2.scala:3:12: object apache is not a member of package org
+[error] import org.apache.spark.Partitioner
+[error]            ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment5\Task2.scala:4:12: object apache is not a member of package org
+[error] import org.apache.spark.rdd.RDD
+[error]            ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment5\Task2.scala:5:12: object apache is not a member of package org
+[error] import org.apache.spark.sql.{DataFrame, SparkSession}
+[error]            ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment5\Task2.scala:14:17: not found: value SparkSession
+[error]     val spark = SparkSession
+[error]                 ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment5\Task2.scala:24:16: object apache is not a member of package org
+[error]     import org.apache.spark.sql.functions._
+[error]                ^
+[error] F:\Projects\Spring Boot\Projects\src\main\scala\com\scala\assignment5\Task2.scala:26:13: not found: type DataFrame
+[error]     val df: DataFrame = spark.read.format("csv")
+[error]             ^
+[error] 29 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 2 s, completed 7 Jul, 2022 10:11:27 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
